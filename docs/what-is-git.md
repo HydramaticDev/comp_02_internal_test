@@ -1,35 +1,26 @@
 ---
 layout: default
-title: REFERENCE LAYOUT DOC
+title: What is Git
 nav_order: 3
 ---
 
 # What is Git?
 
 ## Summary
-**Git** is a free and open source version control system, popular for use with open source projects.
+**Git** is a free and open source version control system. Primarily used by developers to have collaborative tools while maintaining version control.
 
 ## A Brief History of Git
-- The Git version control tool was created by Linus Torvalds, the same coder who created the Linux OS.
-- Git development started when Bitkeeper, the version control tool being used for Linux development, revoked it's free license for Linux development.
-- Development on Git started in April 2005, and by June it was already being used to handle the next Linux kernel release!
+- The Git version control tool was created by Linus Torvalds, the person responsible for making the Linux operating system.
+- In 2005, the company that created BitKeeper and the community that made Linux broke down, which prompted the creation of Git. 
 
 ## Advantages of Git
-- Git is free and open source
-- Git helps us keep track of the changes to our -source code over the lifespan of a project.
-- When combined with cloud version control sites like GitHub or GitLab, we can use git to collaborate with others remotely.
-- With Git, you can make a "commit", or a save point, as often as you'd like.
-- You can also go back to previous commits. This takes the pressure off of you while you're working.
-- Commit often and commit early, and you'll never have that gut sinking feeling of overwriting or losing changes.
-- Allows us to work offline if necessarily and synchronize with a distributed team.
+- Git is an open source project, and free of charge to everyone.
+- Allows for the accurate tracking of changes to a project and access to reliable version control.
+- External Version Control sites such as Github allow Git to be used as a collaborative tool between developers.
+- Commits in Git act as checkpoints for projects, allowing for easier information to find when backtracking.
+- Allows ease of access while working offline and being able to gain changes by synchronizing your repository by connecting online.
 
-## Disadvantages of Git (for game development)
-- Not especially user friendly for non-developers.
+## Disadvantages of Git 
+- Not particularly user-friendly, in particular for non-programmers such as artists.
 - No built-in support for large repos, although the Git LFS add-on exists.
-- No built-in support for locking binary assets. (Locking can be enabled with Git LFS.)
-
-## Additional Git Resources
-
-- Git Guide - Official git Learning Guides from the folks at GitHub.
-- Git CheetSheet - The most popular git commands in one page.
-- Pro Git Book - Free ebook provides a deep dive into everything git.
+- Can appear daunting to new developers who have not used collaborative tools or Git in the past.
