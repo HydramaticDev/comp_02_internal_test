@@ -99,15 +99,15 @@ We can also compare specific folders:
 
 `git diff ./docs`
 
-# Using a Git Ignore File
+# Using a .gitignore File
 
-Often when working on a project, there will be files you *don't* want to have saved in your repository. Some examples of these files are:
-- Files that include secrets like passwords or API keys.
-- Temporary files and folders.
+When working on a project, there will be files you would not want to have saved in your repository. 
+For Example:
+- Files that include secrets like API keys.
+- Temporary files or placeholders.
 - Build files and folders.
-- Hidden OS files like .DS_Store (Mac) or Thumbs.db (Windows) files.
 
-For situations like these, you will need a `.gitignore` file.
+For situations like these, you will need a `.gitignore` file so that git ignores them when being pushed.
 These files describe a list of "rules" to decide which files to skip over when staging and committing files.
 An example .gitignore might look like this:
 
@@ -124,10 +124,6 @@ build/
 doc/**/*.pdf
 ```
 
-{: .note }
-A helpful list of common .gitignore templates for many languages and programs can be found [here].
 
-<!-- prettier-ignore-end -->
 
-[Current Working Directory]: https://hpc.nmsu.edu/onboarding/linux/commands/cd/#:~:text=The%20current%20working%20directory%20is,stands%20for%20Print%20Working%20Directory.&text=The%20name%20of%20the%20current,directory%20in%20the%20absolute%20path.
-[here]: https://github.com/github/gitignore
+
